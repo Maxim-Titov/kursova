@@ -1,0 +1,28 @@
+.share-your-setup {
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.share-your-setup .container {
+    margin: 0 auto;
+}
+
+.share-your-setup .container .block-title {
+    text-align: center;
+}
+
+.share-your-setup .container .block-title .sub-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 0;
+    color: #616161;
+}
+
+.share-your-setup .container .block-title .title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;  
+    margin: 0;  
+}
