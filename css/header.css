@@ -57,7 +57,7 @@ header .container .menu nav ul li a {
 }
 
 header .container .menu nav ul li a:hover {
-    text-decoration: underline;
+    color: #B88E2F;
 }
 
 header .container .tools svg {
@@ -73,7 +73,7 @@ header .container .tools svg:first-child path, header .tools svg:last-child path
 }
 
 header .container .tools svg:first-child:hover path, header .tools svg:last-child:hover path {
-    fill: blue;
+    fill: #B88E2F;
 }
 
 header .container .tools svg:nth-child(3) path, header .tools svg:nth-child(2) path {
@@ -83,7 +83,7 @@ header .container .tools svg:nth-child(3) path, header .tools svg:nth-child(2) p
 }
 
 header .container .tools svg:nth-child(3):hover path, header .tools svg:nth-child(2):hover path {
-    stroke: blue;
+    stroke: #B88E2F;
 }
 
 header .container .tools svg:nth-child(3) path {

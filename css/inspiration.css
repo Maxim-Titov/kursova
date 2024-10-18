@@ -26,7 +26,8 @@
 .inspiration .container .block-title .sub-title {
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;    
+    line-height: 24px;   
+    width: 415px; 
 }
 
 .inspiration .container .block-title form button {
@@ -106,7 +107,7 @@
     float: right;
     width: 769px;
     position: relative;
-    left: 395px;
+    left: 450px;
 }
 
 .inspiration .container .block-content .product .slider-and-arrows .slider .slick-slide {
@@ -142,6 +143,8 @@
     width: 11px;
     color: white;
     background-color: #B88E2F;
+    outline: 1px solid #B88E2F;
+    outline-offset: 4px;
 }
 
 .inspiration .container .block-content .product .slider-and-arrows .arrows li {
