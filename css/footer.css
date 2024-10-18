@@ -12,10 +12,12 @@ footer .container hr {
     border: none;
     height: 1px;
     background-color: rgba(0, 0, 0, 0.17);
+    margin: 0;
 }
 
-footer .container .footer-row {
+footer .container .footer-row:first-child {
     display: flex;
+    padding: 48px;
 }
 
 footer .container .footer-row .footer-col:first-child {
