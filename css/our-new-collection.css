@@ -3,14 +3,6 @@
     padding: 105px 0;
 }
 
-/* .our-new-collection .back-img {
-    position: absolute;
-    width: 100%;
-    height: 1007.93px;
-    top: -75px;
-    z-index: -1;
-} */
-
 .our-new-collection .container {
     margin: 0 auto;
     display: flex;
@@ -22,9 +14,6 @@
     border-radius: 10px;
     width: 643;
     height: 443;
-    /* position: absolute;
-    top: 253px;
-    left: 739px; */
     padding: 55px 40px 40px 40px;
 }
 
@@ -62,4 +51,12 @@
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;  
+}
+
+/*------------------------------------------------------------------*/
+
+@media(max-width: 768px) {
+    .our-new-collection .container {
+        justify-content: center;
+    }
 }
