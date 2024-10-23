@@ -59,4 +59,22 @@
     .our-new-collection .container {
         justify-content: center;
     }
+
+    .our-new-collection .container .content .content-title {
+        font-size: 35px;
+        line-height: 50px;
+    }
+}
+
+/*------------------------------------------------------------------*/
+
+@media(max-width: 320px) {
+    .our-new-collection .container .content .content-title {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .our-new-collection .container .content form button {
+        margin-top: 0;
+    }
 }

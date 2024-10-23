@@ -21,11 +21,10 @@ header .container .company img {
     height: 32px;
 }
 
-header .container .company p {
+header .container .company h2 {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    font-size: 34px;
     font-weight: 700;
     line-height: 41.45px;
     margin: 0;
@@ -116,26 +115,6 @@ header .container .hamburger-menu {
         display: none;
     }
 
-    header .container .hamburger-menu #menu__toggle:checked ~ .menu__btn span {
-        transform: rotate(45deg);
-    }
-
-    header .container .hamburger-menu #menu__toggle:checked ~ .menu__btn span::before {
-        top: 0;
-        transform: rotate(0);
-    }
-
-    header .container .hamburger-menu #menu__toggle:checked ~ .menu__btn span::after {
-        top: 0;
-        transform: rotate(90deg);
-        width: 35px;
-    }
-
-    header .container .hamburger-menu #menu__toggle:checked ~ .menu__box {
-        visibility: visible;
-        right: 0;
-    }
-
     header .container .hamburger-menu .button .menu__btn {
         display: flex;
         align-items: center;
@@ -144,11 +123,7 @@ header .container .hamburger-menu {
         width: 26px;
         height: 26px;
         cursor: pointer;
-    }
-
-    header .container .hamburger-menu .menu__btn span {
-        right: 0.5px;
-    }
+    }    
 
     header .container .hamburger-menu .menu__btn span,
     header .container .hamburger-menu .menu__btn span::before,
@@ -161,7 +136,11 @@ header .container .hamburger-menu {
         transition-duration: .25s;
         border-radius: 3px;
         margin-right: 20px;
-        z-index: 2;
+        z-index: 20;
+    }
+
+    header .container .hamburger-menu .menu__btn span {
+        right: 0.5px;
     }
 
     header .container .hamburger-menu .menu__btn span::before {
@@ -179,8 +158,8 @@ header .container .hamburger-menu {
         display: block;
         position: absolute;
         visibility: hidden;
-        right: -100%;
-        top: 0;
+        left: 0;
+        top: -100%;
         width: 100%;
         height: 100%;
         margin: 0;
@@ -189,7 +168,27 @@ header .container .hamburger-menu {
         text-align: center;
         background-color: white;
         transition-duration: .25s;
-        z-index: 1;
+        z-index: 19;
+    }
+
+    header .container .hamburger-menu #menu__toggle:checked ~ .menu__btn span {
+        transform: rotate(45deg);
+    }
+
+    header .container .hamburger-menu #menu__toggle:checked ~ .menu__btn span::before {
+        top: 0;
+        transform: rotate(0);
+    }
+
+    header .container .hamburger-menu #menu__toggle:checked ~ .menu__btn span::after {
+        top: 0;
+        transform: rotate(90deg);
+        width: 35px;
+    }
+
+    header .container .hamburger-menu #menu__toggle:checked ~ .menu__box {
+        visibility: visible;
+        top: 0;
     }
 
     header .container .hamburger-menu .menu__box .logo {

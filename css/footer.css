@@ -86,6 +86,10 @@ footer .container .footer-row .footer-col:last-child .help ul li a:hover {
     color: #B88E2F;
 }
 
+footer .container .footer-row .footer-col:last-child .newsletter form input {
+    width: 200px;
+}
+
 footer .container .footer-row .footer-col:last-child .newsletter form input,
 footer .container .footer-row .footer-col:last-child .newsletter form button {
     border: none;
@@ -124,6 +128,68 @@ footer .container .footer-row:last-child .copyright {
     font-weight: 400;
     line-height: 24px;
     margin: 0;
+}
+
+/*------------------------------------------------------------------*/
+
+@media(max-width: 768px) {
+    footer .container .footer-row {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    footer .container .footer-row:first-child {
+        display: block;
+        height: 600px;
+    }
+
+    footer .container .footer-row:first-child .footer-col:last-child {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 15px;
+        grid-row-gap: 15px;
+    }
+
+    footer .container .footer-row .footer-col:first-child,
+    footer .container .footer-row .footer-col:last-child {
+        width: 100%;
+    }
+
+    footer .container .footer-row .footer-col:last-child .links .title,
+    footer .container .footer-row .footer-col:last-child .help .title,
+    footer .container .footer-row .footer-col:last-child .newsletter .title {
+        margin-bottom: 30px;
+    }
+
+    footer .container .footer-row .footer-col:last-child .links nav ul li,
+    footer .container .footer-row .footer-col:last-child .help ul li {
+        margin-bottom: 25px;
+    }
+
+    footer .container .footer-row:first-child .footer-col .links {
+        grid-area: 1 / 1;
+    }
+
+    footer .container .footer-row:first-child .footer-col .help {
+        grid-area: 1 / 2;
+    }
+
+    footer .container .footer-row:first-child .footer-col .newsletter {
+        grid-area: 2 / 3 / 2 / 1;
+    }
+}
+
+/*------------------------------------------------------------------*/
+
+@media(max-width: 320px) {
+    footer .container .footer-row:first-child {
+        height: 650px;
+    }
+
+    footer .container .footer-row .footer-col:last-child .newsletter form button {
+        margin-top: 15px;
+    }
 }
 
 /*-JS---------------------------------------------------------------*/
