@@ -132,7 +132,7 @@ footer .container .footer-row:last-child .copyright {
 
 /*------------------------------------------------------------------*/
 
-@media(max-width: 768px) {
+@media(max-width: 1280px) {
     footer .container .footer-row {
         text-align: center;
         margin: 0 auto;
@@ -182,7 +182,7 @@ footer .container .footer-row:last-child .copyright {
 
 /*------------------------------------------------------------------*/
 
-@media(max-width: 320px) {
+@media(max-width: 768px) {
     footer .container .footer-row:first-child {
         height: 650px;
     }

@@ -95,13 +95,7 @@ header .container .hamburger-menu {
 
 /*------------------------------------------------------------------*/
 
-@media(max-width: 992px) {
-
-}
-
-/*------------------------------------------------------------------*/
-
-@media(max-width: 768px) {
+@media(max-width: 1280px) {
     header .container .menu,
     header .container .tools {
         display: none;
@@ -259,10 +253,4 @@ header .container .hamburger-menu {
         justify-content: space-between;
         max-width: 350px;
     }
-}
-
-/*------------------------------------------------------------------*/
-
-@media(max-width: 320px) {
-
 }

@@ -126,7 +126,7 @@
 
 /*------------------------------------------------------------------*/
 
-@media(max-width: 768px) {
+@media(max-width: 1280px) {
     .share-your-setup .content {
         display: none;
     }
@@ -163,7 +163,7 @@
 
 /*------------------------------------------------------------------*/
 
-@media(max-width: 320px) {
+@media(max-width: 768px) {
     .share-your-setup {
         height: 630px;
     }

@@ -55,7 +55,7 @@
 
 /*------------------------------------------------------------------*/
 
-@media(max-width: 768px) {
+@media(max-width: 1280px) {
     .our-new-collection .container {
         justify-content: center;
     }
@@ -68,7 +68,7 @@
 
 /*------------------------------------------------------------------*/
 
-@media(max-width: 320px) {
+@media(max-width: 768px) {
     .our-new-collection .container .content .content-title {
         font-size: 30px;
         line-height: 35px;

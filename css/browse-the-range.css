@@ -47,7 +47,7 @@
 
 /*------------------------------------------------------------------*/
 
-@media(max-width: 320px) {
+@media(max-width: 768px) {
     .browse-the-range .container .block-content {
         display: none;
     }
